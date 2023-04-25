@@ -113,9 +113,13 @@ public class Admin  implements Actions, Person, AdditionalActions
     }
 }
 
-public class User
+public class User implements Person
 {
     private int Phone_Number;
-    
+    private int License_Number;
+    public bool RentCar( )
+    {
+        
+    }
 
 }
