@@ -1,4 +1,4 @@
-public interface Car
+public abstract Car
 {
     private String Brand;
     private int PricePerDay;
